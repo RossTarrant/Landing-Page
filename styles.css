@@ -12,7 +12,8 @@ ul{
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 .logo{
@@ -22,15 +23,17 @@ body{
     font-size: 24px;
 }
 
-.header, .footer{
+.header{
     background-color: #1F2937;
-    padding: 30px;
+    padding-bottom: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
     flex-shrink: 0;
 }
 
 .header-content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -38,17 +41,80 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .header-left{
     width: 400px;
 }
 
-.footer{
+.content{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cards{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 15px;
+    width: 200px;
+    font-size: 18px;
+    font-family: roboto;
+    color: black;
+}
+
+.cards-text{
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: roboto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    font-family: roboto;
+    font-size: 24px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotee{
+    align-self: flex-end;
+}
+
+.signup-section{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-shrink: 0;
+    padding: 40px;
 }
 
 .main-text{
@@ -56,6 +122,7 @@ body{
     font-size: 48px;
     font-weight: bold;
     font-family: roboto;
+    padding-bottom: 20px;
 }
 
 .secondary-text{
