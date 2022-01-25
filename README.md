@@ -1,10 +1,12 @@
 # Landing-Page
 
-I've been learning flexbox over the last week.
+**PROJECT SUMMARY:**
 
-This project where I will be creating a template landing page will be a culmination of all I have learned about flexbox. I have chosen to theme the template with the theme of a new up and coming coffee shop.
+I've been learning flexbox over the last couple of days and have been understanding how it can be used to style and structure web pages. I will admit, it was very challenging at first. However, with some determination and some resources (Flexbox Froggy was GREAT!) I believe I believe I have developed a good understanding of it.
 
-**SUMMARY OF THE PROJECT:**
+In this project, I created a landing page for a website which uses flexbox as the main method of styling and structuring the contents of the page. The aim was to have some degree of responsive design on the page (which can be seen in the four images when the page is collapsed) but I did not aim to have the page completely responsive for other devices, just the primary device I was using to create the page.
+
+I have chosen to theme the template with the theme of a new up and coming coffee shop.
 
 _**Some of the things I have learned from completing this project:**_
 
